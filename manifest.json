@@ -20,5 +20,5 @@
   [
     "style.xslt"
   ],
-  "permissions": [ "contextMenus"]
+  "permissions": [ "contextMenus", "tabs", "http://*/*.xml", "https://*/*.xml", "file:///*.xml"]
 }
