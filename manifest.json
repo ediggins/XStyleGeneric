@@ -9,8 +9,8 @@
       "js": ["content-script.js"]
     }
   ],
-  "name": "Generic XSL",
-  "description": "This extension applies a generic XML Stylesheet to any XML file",
+  "name": "Generic XSLT",
+  "description": "This extension applies a generic style to any XML file",
   "version": "1.0",
   "web_accessible_resources":
   [
