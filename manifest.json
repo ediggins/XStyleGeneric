@@ -14,7 +14,7 @@
   ],
   "name": "Generic XSLT",
   "description": "This extension applies a generic style to any XML file",
-  "version": "1.0",
+  "version": "0.1",
   "web_accessible_resources":
   [
     "style.xslt"
