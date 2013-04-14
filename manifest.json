@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "background": {
+	"scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*.xml", "https://*/*.xml", "file:///*.xml"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "name": "Generic XSL",
+  "description": "This extension applies a generic XML Stylesheet to any XML file",
+  "version": "1.0",
+  "web_accessible_resources":
+  [
+    "style.xslt"
+  ],
+  "permissions": [ "contextMenus"]
+}
