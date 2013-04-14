@@ -3,6 +3,9 @@
   "background": {
 	"scripts": ["background.js"]
   },
+  "icons": { "16": "icon_x_16.png",
+           "48": "icon_x_48.png",
+          "128": "icon_x_128.png" },
   "content_scripts": [
     {
       "matches": ["http://*/*.xml", "https://*/*.xml", "file:///*.xml"],
