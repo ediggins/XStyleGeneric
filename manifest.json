@@ -12,8 +12,9 @@
       "js": ["content-script.js"]
     }
   ],
-  "name": "Generic XSLT",
-  "description": "This extension applies a generic style to any XML file",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
   "version": "0.1",
   "web_accessible_resources":
   [

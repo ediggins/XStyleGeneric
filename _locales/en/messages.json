@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Generic XSLT",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "This extension applies a generic style to any XML file.", 
+    "description":"The description of the application, displayed in the web store."
+  },
+  "contextMenuOption":{
+    "message": "Style this XML", 
+    "description":"Option displayed to a user when they right-click on a page."
+  }
+}

@@ -4,7 +4,7 @@ function notifyXmlTransformer(info, tab){
 
 chrome.contextMenus.create(
 	{
-		title: "Style this XML", 
+		title: chrome.i18n.getMessage("contextMenuOption"), 
 		contexts:["page"], 
 		onclick: notifyXmlTransformer, 
 		documentUrlPatterns:[
